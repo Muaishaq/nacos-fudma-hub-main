@@ -8,6 +8,7 @@ import About from "./pages/About";
 import TechGuild from "./pages/TechGuild";
 import Executives from "./pages/Executives";
 import Verification from "./pages/Verification";
+import Register from "./pages/Register";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/tech-guild" element={<TechGuild />} />
           <Route path="/executives" element={<Executives />} />
           <Route path="/verification" element={<Verification />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/events" element={<Events />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

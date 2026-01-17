@@ -17,6 +17,29 @@ const Index = () => {
         <PresidentSection />
         <TechGuildPreview />
         
+        {/* Registration CTA Section */}
+        <section className="py-20 bg-card">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto text-center">
+              <CheckCircle className="h-12 w-12 mx-auto mb-6 text-primary" />
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+                Register as a NACOS Member
+              </h2>
+              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+                New to NACOS FUDMA? Register now and become part of the computing community. Verify your email to complete registration.
+              </p>
+              <Link to="/register">
+                <Button 
+                  size="lg" 
+                  className="rounded-full px-8 gap-2"
+                >
+                  Register Now <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Verification CTA Section */}
         <section className="py-20 bg-primary">
           <div className="container mx-auto px-4">
