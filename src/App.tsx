@@ -11,6 +11,9 @@ import Verification from "./pages/Verification";
 import Register from "./pages/Register";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
+import Register from "./pages/Register";
+import Contact from "./pages/Contact";
+import Verification from "./pages/Verification";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
